@@ -5,8 +5,11 @@
 # return the largest increase between two indexes, moving left to right.
 
 # 2. Plan
-# for each item subract it from each item to the right
 # if current value is greater than what is in the initial value, replace the initial value
+# for each item in the array,
+# if price is less than min_profit, replace min_profit with that price
+# if price - min_profit is greater max_profit, replace the max_profit with the new value
+# loop through all items to find largest difference between two items 
 # when loop finishes return the variable
 
 # 3. Implement Plan
@@ -14,6 +17,9 @@
 # set minimum as the first item of given array
 # set maximum as the difference between the first two items of given array
 # loop through list
+
+# 4. Revise
+# Recursion?
 
 import argparse
 
