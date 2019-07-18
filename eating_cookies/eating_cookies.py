@@ -1,5 +1,20 @@
 #!/usr/bin/python
 
+# 1. Understand the problem
+# Can eat 1, 2, or 3 cookies at a time.
+# if 0 return 1
+# Fibonacci esq?
+# caching
+
+# 2. Create a Plan
+# Create base cases
+
+# 3. Implement Plan
+# at first without caching
+
+# 4. Revise
+# Caching to pass the large tests, without it solution is too slow to compute tests.
+
 import sys
 
 # The cache parameter is here for if you want to implement
