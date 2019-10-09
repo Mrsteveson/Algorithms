@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+# 1. Understand the Question
+# 2. Create Plan
+# 3. Implement Plan
+# 4. Revise and Improve
+
 import sys
 
 # The cache parameter is here for if you want to implement
